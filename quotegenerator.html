@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<title>Generate A Quote!</title>
+</head>
+<body>
+
+	<div class="container text-center">
+		<div class="jumbotron" id="quotebox">
+			<h1 class="quote"></h1>
+			<p class="small" id="speaker"></p>
+		</div>
+		<button onclick="addQuote()" class="btn btn-primary">New Quote</button> <button onclick="tweetQuote()" class="btn btn-primary">Tweet</button>
+	</div>
+
+	<script>
+		function addQuote(){
+			var quotes = [
+				{"speaker":"William Shakespeare", 	"quote":"To be or not to be"},
+				{"speaker":"Travis Bickle",			"quote":"You talking to me?"},
+				{"speaker":"Spongebob Squarepants", "quote":"Licking doorknobs is illegal on other planets!"},
+				{"speaker":"Rudy Tomjanovich", 		"quote": "Don't ever underestimate the heart of a champion!"}
+			];
+			var quoteLine = document.getElementsByClassName("quote");
+			var speakerLine = document.getElementById("speaker");
+			var quoteIndex = Math.floor(Math.random() * quotes.length);
+			currentQuote = quotes[quoteIndex];
+			quoteLine[0].innerHTML = "\"" + currentQuote.quote + "\"";
+			speakerLine.innerHTML = "- " + currentQuote.speaker;
+
+		}
+
+		function tweetQuote(){
+			var tweetText = '"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker;
+			window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,soreal", "tweetquote", 'width=700,height=250');
+		}
+	</script>
+
+</body>
+</html>
