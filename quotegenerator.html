@@ -2,17 +2,23 @@
 <html>
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	<title>Generate A Quote!</title>
 </head>
 <body>
+	
+
 
 	<div class="container text-center">
-		<div class="jumbotron" id="quotebox">
-			<h1 class="quote"></h1>
-			<p class="small" id="speaker"></p>
+		<div class="row">
+			<div class="jumbotron col-xs-8 col-xs-offset-2">
+				<h1 class="quote"></h1>
+				<p class="small" id="speaker"></p>
+			</div>
 		</div>
 		<button onclick="addQuote()" class="btn btn-primary">New Quote</button> <button onclick="tweetQuote()" class="btn btn-primary">Tweet</button>
 	</div>
+
 
 	<script>
 		function addQuote(){
@@ -36,6 +42,7 @@
 			window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,soreal", "tweetquote", 'width=700,height=250');
 		}
 	</script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
