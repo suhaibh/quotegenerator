@@ -7,7 +7,7 @@
 </head>
 <body>
 	
-
+	<button id="night-button" class="btn btn-default">Night</button>
 
 	<div class="container text-center">
 		<div class="row">
@@ -16,11 +16,30 @@
 				<p class="small" id="speaker"></p>
 			</div>
 		</div>
-		<button onclick="addQuote()" class="btn btn-primary">New Quote</button> <button onclick="tweetQuote()" class="btn btn-primary">Tweet</button>
+		<button id="quote-button" class="btn btn-primary">New Quote</button> <button id="tweet-button" class="btn btn-primary">Tweet</button>
 	</div>
 
 
 	<script>
+		
+		// Night Mode
+		var nightModeButton = document.getElementById("night-button");
+		nightModeButton.onclick = function(){nightMode()};
+
+		function nightMode(){
+			if (document.body.className == false){
+				document.body.className = "night-mode";
+			}
+			else {
+				document.body.className = "";
+			}
+		}
+
+
+		// Generate Quote
+		var quoteButton = document.getElementById("quote-button");
+		quoteButton.onclick = function(){addQuote()};
+
 		function addQuote(){
 			var quotes = [
 				{"speaker":"William Shakespeare", 	"quote":"To be or not to be"},
@@ -36,6 +55,10 @@
 			speakerLine.innerHTML = "- " + currentQuote.speaker;
 
 		}
+
+		// Tweet Quote
+		var tweetButton = document.getElementById("tweet-button");
+		tweetButton.onclick = function(){tweetQuote()};
 
 		function tweetQuote(){
 			var tweetText = '"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker;
