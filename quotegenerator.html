@@ -12,12 +12,12 @@
 		<i class="fa fa-moon-o fa-2x pull-right" id="night-button"></i>
 		<div class="row text-center">
 			<div class="jumbotron col-xs-8 col-xs-offset-2">
-				<h2 class="quote">Click "New Quote" and get inspired</h2>
+				<h2 class="quote">Click "New Quote" and you'll get a quote. It's not that complicated.</h2>
 				<p id="speaker"></p>
 			</div>
 		</div>
 		<div class="row text-center">
-			<button id="quote-button" class="btn btn-primary">New Quote</button> <button id="tweet-button" class="btn btn-primary">Tweet</button>
+			<button id="quote-button" class="btn btn-primary">New Quote</button> <button id="tweet-button" class="btn btn-primary"><i class="fa fa-twitter"></i></button>
 		</div>
 	</div>
 
@@ -32,13 +32,24 @@
 			if (document.body.className == false){
 				document.body.className = "night-mode";
 				nightModeButton.style.color="white";
+				nightModeButtonStyle(quoteButton);
+				nightModeButtonStyle(tweetButton);
 			}
 			else {
 				document.body.className = "";
 				nightModeButton.style.color="black";
+				regularButtonStyle(quoteButton);
+				regularButtonStyle(tweetButton);
 			}
 		}
 
+		function nightModeButtonStyle(button){
+			button.className = button.className + " night-mode-btn-style";
+		}
+
+		function regularButtonStyle(button){
+			button.className = "btn btn-primary";
+		}
 
 		// Generate Quote
 		var quoteButton = document.getElementById("quote-button");
@@ -49,7 +60,9 @@
 				{"speaker":"William Shakespeare", 	"quote":"To be or not to be"},
 				{"speaker":"Travis Bickle",			"quote":"You talking to me?"},
 				{"speaker":"Spongebob Squarepants", "quote":"Licking doorknobs is illegal on other planets!"},
-				{"speaker":"Rudy Tomjanovich", 		"quote": "Don't ever underestimate the heart of a champion!"}
+				{"speaker":"Rudy Tomjanovich", 		"quote":"Don't ever underestimate the heart of a champion!"},
+				{"speaker":"Julius Caesar",			"quote":"Et tu, Brutus?"},
+				{"speaker":"CoCo Chanel",  		"quote":"Success is often achieved by those who don't know that failure is inevitable."}
 			];
 			var quoteLine = document.getElementsByClassName("quote");
 			var speakerLine = document.getElementById("speaker");
