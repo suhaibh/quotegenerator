@@ -1,5 +1,5 @@
 .jumbotron {
-	height: 350px;
+	height: 250px;
 }
 
 .dropdown {
@@ -14,3 +14,8 @@ body {
 	transition: background-color 300ms, ease-in-out;
 }
 
+#night-button {
+	color: black;
+	cursor: pointer;
+	transition: 300ms, ease-in-out;
+}
