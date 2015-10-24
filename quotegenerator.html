@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
 	<title>Generate A Quote!</title>
 </head>
@@ -10,6 +11,7 @@
 
 	<div class="container">
 		<i class="fa fa-moon-o fa-2x pull-right" id="night-button"></i>
+		<span class="row"><h1 class="col-xs-8 col-xs-offset-2 text-center">Quote Generator</h1></span>
 		<div class="row text-center">
 			<div class="jumbotron col-xs-8 col-xs-offset-2">
 				<h2 class="quote">Click "New Quote" and you'll get a quote. It's not that complicated.</h2>
@@ -34,12 +36,14 @@
 				nightModeButton.style.color="white";
 				nightModeButtonStyle(quoteButton);
 				nightModeButtonStyle(tweetButton);
+				document.getElementsByTagName("h1")[0].style.color = "white";
 			}
 			else {
 				document.body.className = "";
 				nightModeButton.style.color="black";
 				regularButtonStyle(quoteButton);
 				regularButtonStyle(tweetButton);
+				document.getElementsByTagName("h1")[0].style.color = "";
 			}
 		}
 
@@ -62,7 +66,7 @@
 				{"speaker":"Spongebob Squarepants", "quote":"Licking doorknobs is illegal on other planets!"},
 				{"speaker":"Rudy Tomjanovich", 		"quote":"Don't ever underestimate the heart of a champion!"},
 				{"speaker":"Julius Caesar",			"quote":"Et tu, Brutus?"},
-				{"speaker":"CoCo Chanel",  		"quote":"Success is often achieved by those who don't know that failure is inevitable."}
+				{"speaker":"CoCo Chanel",  			"quote":"Success is often achieved by those who don't know that failure is inevitable."}
 			];
 			var quoteLine = document.getElementsByClassName("quote");
 			var speakerLine = document.getElementById("speaker");

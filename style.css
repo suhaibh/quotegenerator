@@ -1,16 +1,25 @@
 .container {
-	padding-top: 20px
+	padding-top: 40px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .jumbotron {
 	height: 250px;
 	background-color: #68738f;
 	color: white;
-	box-shadow: 0px 10px 15px gray;
+	box-shadow: 0px 6px 15px gray;
 }
 
-.dropdown {
-	position: relative;
+.btn {
+	background-color: #68738f;
+	border-color: #68738f;
+	color: white;
+	box-shadow: 0px 5px 10px gray;
+}
+
+.btn:hover {
+	background-color: #5d6780;
+	border-color: #5d6780;
 }
 
 .night-mode {
