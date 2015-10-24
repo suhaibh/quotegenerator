@@ -20,6 +20,10 @@ h1 {
 	border-bottom-width: thin;
 }
 
+#speaker {
+	font-size: x-large;
+}
+
 .btn {
 	background-color: #68738f;
 	border-color: #68738f;
@@ -28,6 +32,18 @@ h1 {
 }
 
 .btn:hover {
+	background-color: #5d6780;
+	border-color: #5d6780;
+}
+
+.btn:active {
+	background-color: #5d6780 !important;
+	border-color: #5d6780 !important;
+	box-shadow: ;
+}
+
+.btn:focus {
+	outline: none !important;
 	background-color: #5d6780;
 	border-color: #5d6780;
 }
