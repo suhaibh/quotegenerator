@@ -11,6 +11,7 @@
 	margin-bottom: 30px;
 	padding: 60px 48px;
 	border-radius: 10px;
+	transition: 50ms ease-in;
 
 }
 
@@ -20,8 +21,15 @@ h1 {
 	border-bottom-width: thin;
 }
 
+.quote {
+	opacity: 0;
+	transition: 300ms ease-in-out;
+}
+
 #speaker {
 	font-size: x-large;
+	opacity: 0;
+	transition: 300ms ease-in-out;
 }
 
 #quote-button {
@@ -29,6 +37,7 @@ h1 {
 	border-color: #68738f;
 	color: white;
 	box-shadow: 0px 3px 8px gray;
+	transition: background-color 150ms, color 150ms ease-in;
 }
 
 #quote-button:hover {
@@ -50,9 +59,10 @@ h1 {
 }
 
 #tweet-button {
-	display: none;
 	background-color: white;
 	color: #68738f;
+	opacity: 0;
+	transition: opacity 300ms, color 150ms, background-color 150ms, border-color 150ms ease-in-out;
 }
 
 #tweet-button:hover {
@@ -84,6 +94,7 @@ body {
 	background-color: white !important;
 	border-color: #68738f !important;
 	color: #68738f !important;
+	transition: background-color 150ms, color 150ms ease-in;
 }
 
 #night-mode-btn-style:focus {
