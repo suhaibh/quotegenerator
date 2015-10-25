@@ -12,20 +12,22 @@
 	<div class="container">
 		<i class="fa fa-moon-o fa-2x pull-right" id="night-button"></i>
 		<div class="row text-center">
-			<div class="quote-box col-xs-8 col-xs-offset-2">
+			<div id="quote-box" class="col-xs-8 col-xs-offset-2">
 				<h1>Quote Generator</h1>
 				<h2 class="quote">Click "New Quote" and you'll get a quote. It's not that complicated.</h2>
 				<p id="speaker"></p>
+				<button id="tweet-button" class="btn"><i class="fa fa-twitter fa-lg"></i></button>
 			</div>
 		</div>
 		<div class="row text-center">
-			<button id="quote-button" class="btn btn-primary">New Quote</button> <button id="tweet-button" class="btn btn-primary"><i class="fa fa-twitter"></i></button>
+			<button id="quote-button" class="btn btn-primary">New Quote</button> 
 		</div>
 	</div>
 
 	<script>
 
 		// Night Mode
+		var quoteBox = document.getElementById("quote-box");
 		var nightModeButton = document.getElementById("night-button");
 		nightModeButton.onclick = function(){nightMode()};
 
@@ -33,25 +35,17 @@
 			if (document.body.className == false){
 				document.body.className = "night-mode";
 				nightModeButton.style.color="white";
-				nightModeButtonStyle(quoteButton);
-				nightModeButtonStyle(tweetButton);
+				quoteButton.id = "night-mode-btn-style";
 				document.getElementsByTagName("h1")[0].style.color = "white";
+				quoteBox.style.boxShadow = "0px 0px";
 			}
 			else {
 				document.body.className = "";
 				nightModeButton.style.color="black";
-				regularButtonStyle(quoteButton);
-				regularButtonStyle(tweetButton);
+				quoteButton.id = "quote-button";
 				document.getElementsByTagName("h1")[0].style.color = "";
+				quoteBox.style.boxShadow = "0px 6px 10px gray";
 			}
-		}
-
-		function nightModeButtonStyle(button){
-			button.className = button.className + " night-mode-btn-style";
-		}
-
-		function regularButtonStyle(button){
-			button.className = "btn btn-primary";
 		}
 
 		// Generate Quote
@@ -84,7 +78,7 @@
 
 		function tweetQuote(){
 			var tweetText = '"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker;
-			window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,soreal", "tweetquote", 'width=700,height=250');
+			window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 		}
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

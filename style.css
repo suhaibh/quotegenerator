@@ -3,11 +3,11 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-.quote-box {
+#quote-box {
 	height: 350px;
 	background-color: #68738f;
 	color: white;
-	box-shadow: 0px 6px 15px gray;
+	box-shadow: 0px 6px 10px gray;
 	margin-bottom: 30px;
 	padding: 60px 48px;
 	border-radius: 10px;
@@ -24,32 +24,46 @@ h1 {
 	font-size: x-large;
 }
 
-.btn {
+#quote-button {
 	background-color: #68738f;
 	border-color: #68738f;
 	color: white;
-	box-shadow: 0px 5px 10px gray;
+	box-shadow: 0px 3px 8px gray;
 }
 
-.btn:hover {
-	background-color: #5d6780;
-	border-color: #5d6780;
+#quote-button:hover {
+	background-color: white;
+	color: #68738f;
+	border-color: #68738f;
 }
 
-.btn:active {
-	background-color: #5d6780 !important;
-	border-color: #5d6780 !important;
-	box-shadow: ;
+#quote-button:active {
+	background-color: white;
+	box-shadow: 0px 0px !important;
 }
 
-.btn:focus {
+#quote-button:focus {
 	outline: none !important;
-	background-color: #5d6780;
-	border-color: #5d6780;
+	background-color: white;
+	border-color: #68738f;
+	color: #68738f;
 }
 
 #tweet-button {
 	display: none;
+	background-color: white;
+	color: #68738f;
+}
+
+#tweet-button:hover {
+	color: white;
+	background-color: #68738f;
+	border-color: white;
+	box-shadow: ;
+}
+
+#tweet-button:focus {
+	outline: none;
 }
 
 .night-mode {
@@ -66,14 +80,18 @@ body {
 	transition: 300ms, ease-in-out;
 }
 
-.night-mode-btn-style {
-	background-color: white;
-	border-color: black;
-	color: black;
+#night-mode-btn-style {
+	background-color: white !important;
+	border-color: #68738f !important;
+	color: #68738f !important;
 }
 
-.night-mode-btn-style:hover{
-	background-color: #68738f;
-	color: white;
-	border-color: white;
+#night-mode-btn-style:focus {
+	outline: none;
+}
+
+#night-mode-btn-style:hover{
+	background-color: #68738f !important;
+	color: white !important;
+	border-color: white !important;
 }
