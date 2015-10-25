@@ -57,6 +57,8 @@ function addQuote(){
 		{"speaker":"Shel Silverstein",		"quote":"So just give me a happy middle. And a very happy start."},
 		{"speaker":"Charles Barkley",		"quote":"The only difference between a good shot and a bad shot is if it goes in or not."},
 		{"speaker":"Henry Hill",			"quote":"For as long as I can remember I always wanted to be a gangster."},
+		{"speaker":"T.E. Lawrence",			"quote":"The trick, William Potter, is not minding that it hurts."},
+		{"speaker":"Sherif Ali",			"quote":"It seems to me that you are free to choose your own name, then."}
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
 	currentQuote = quotes[quoteIndex];
