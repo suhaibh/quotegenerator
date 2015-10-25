@@ -48,6 +48,10 @@ h1 {
 	border-color: #5d6780;
 }
 
+#tweet-button {
+	display: none;
+}
+
 .night-mode {
 	background-color: #323232;
 }

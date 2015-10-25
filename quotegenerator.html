@@ -13,7 +13,7 @@
 		<i class="fa fa-moon-o fa-2x pull-right" id="night-button"></i>
 		<div class="row text-center">
 			<div class="quote-box col-xs-8 col-xs-offset-2">
-				<h1 class="text-center">Quote Generator</h1>
+				<h1>Quote Generator</h1>
 				<h2 class="quote">Click "New Quote" and you'll get a quote. It's not that complicated.</h2>
 				<p id="speaker"></p>
 			</div>
@@ -23,9 +23,8 @@
 		</div>
 	</div>
 
-
 	<script>
-		
+
 		// Night Mode
 		var nightModeButton = document.getElementById("night-button");
 		nightModeButton.onclick = function(){nightMode()};
@@ -61,12 +60,13 @@
 
 		function addQuote(){
 			var quotes = [
-				{"speaker":"William Shakespeare", 	"quote":"To be or not to be"},
+				{"speaker":"William Shakespeare", 	"quote":"To be or not to be?"},
 				{"speaker":"Travis Bickle",			"quote":"You talking to me?"},
 				{"speaker":"Spongebob Squarepants", "quote":"Licking doorknobs is illegal on other planets!"},
 				{"speaker":"Rudy Tomjanovich", 		"quote":"Don't ever underestimate the heart of a champion!"},
 				{"speaker":"Julius Caesar",			"quote":"Et tu, Brutus?"},
-				{"speaker":"CoCo Chanel",  			"quote":"Success is often achieved by those who don't know that failure is inevitable."}
+				{"speaker":"CoCo Chanel",  			"quote":"Success is often achieved by those who don't know that failure is inevitable."},
+				{"speaker": "John Lennon", 			"quote":"The more I see the less I know for sure."}, 
 			];
 			var quoteLine = document.getElementsByClassName("quote");
 			var speakerLine = document.getElementById("speaker");
@@ -74,6 +74,7 @@
 			currentQuote = quotes[quoteIndex];
 			quoteLine[0].innerHTML = "\"" + currentQuote.quote + "\"";
 			speakerLine.innerHTML = "- " + currentQuote.speaker;
+			tweetButton.style.display = "inline-block";
 
 		}
 
