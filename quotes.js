@@ -40,26 +40,27 @@ function decreaseOpacity(){
 
 function addQuote(){
 	var quotes = [
-		{"speaker":"William Shakespeare", 	"quote":"To be or not to be?"},
-		{"speaker":"Travis Bickle",			"quote":"You talking to me?"},
-		{"speaker":"SpongeBob SquarePants", "quote":"Licking doorknobs is illegal on other planets!"},
-		{"speaker":"Rudy Tomjanovich", 		"quote":"Don't ever underestimate the heart of a champion!"},
-		{"speaker":"Julius Caesar",			"quote":"Et tu, Brutus?"},
-		{"speaker":"CoCo Chanel",  			"quote":"Success is often achieved by those who don't know that failure is inevitable."},
-		{"speaker":"John Lennon", 			"quote":"The more I see the less I know for sure."},
-		{"speaker":"Bob Dylan",				"quote":"You don't need a weatherman to know which way the wind blows."},
-		{"speaker":"Yoda",					"quote":"There is no try, only do."},
-		{"speaker":"House Stark",			"quote":"Winter is coming."},
-		{"speaker":"Abraham Lincoln",		"quote":"Always bear in mind that your own resolution to succeed, is more important than any other one thing."},
-		{"speaker":"The Lorax",				"quote":"It's not about what it is, it's about what it can become."},
-		{"speaker":"Frodo",					"quote":"I am glad you are here with me. Here at the end of all things, Sam."},
-		{"speaker":"Dale Doback",			"quote":"This is going to sound weird, but for a second, I think you took on the shape of a unicorn."},
-		{"speaker":"Shel Silverstein",		"quote":"So just give me a happy middle. And a very happy start."},
-		{"speaker":"Charles Barkley",		"quote":"The only difference between a good shot and a bad shot is if it goes in or not."},
-		{"speaker":"Henry Hill",			"quote":"For as long as I can remember I always wanted to be a gangster."},
-		{"speaker":"T.E. Lawrence",			"quote":"The trick, William Potter, is not minding that it hurts."},
-		{"speaker":"Sherif Ali",			"quote":"It seems to me that you are free to choose your own name, then."},
-		{"speaker":"Tyra Banks",			"quote":"We were rooting for you! We were all rooting for you!"}
+		{"speaker":"William Shakespeare", 		"quote":"To be or not to be?"},
+		{"speaker":"Travis Bickle",				"quote":"You talking to me?"},
+		{"speaker":"SpongeBob SquarePants", 	"quote":"Licking doorknobs is illegal on other planets!"},
+		{"speaker":"Rudy Tomjanovich", 			"quote":"Don't ever underestimate the heart of a champion!"},
+		{"speaker":"Julius Caesar",				"quote":"Et tu, Brutus?"},
+		{"speaker":"CoCo Chanel",  				"quote":"Success is often achieved by those who don't know that failure is inevitable."},
+		{"speaker":"John Lennon", 				"quote":"The more I see the less I know for sure."},
+		{"speaker":"Bob Dylan",					"quote":"You don't need a weatherman to know which way the wind blows."},
+		{"speaker":"Yoda",						"quote":"There is no try, only do."},
+		{"speaker":"House Stark",				"quote":"Winter is coming."},
+		{"speaker":"Abraham Lincoln",			"quote":"Always bear in mind that your own resolution to succeed, is more important than any other one thing."},
+		{"speaker":"The Lorax",					"quote":"It's not about what it is, it's about what it can become."},
+		{"speaker":"Frodo",						"quote":"I am glad you are here with me. Here at the end of all things, Sam."},
+		{"speaker":"Dale Doback",				"quote":"This is going to sound weird, but for a second, I think you took on the shape of a unicorn."},
+		{"speaker":"Shel Silverstein",			"quote":"So just give me a happy middle. And a very happy start."},
+		{"speaker":"Charles Barkley",			"quote":"The only difference between a good shot and a bad shot is if it goes in or not."},
+		{"speaker":"Henry Hill",				"quote":"For as long as I can remember I always wanted to be a gangster."},
+		{"speaker":"T.E. Lawrence",				"quote":"The trick, William Potter, is not minding that it hurts."},
+		{"speaker":"Sherif Ali",				"quote":"It seems to me that you are free to choose your own name, then."},
+		{"speaker":"Tyra Banks",				"quote":"We were rooting for you! We were all rooting for you!"},
+		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."}
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
 	currentQuote = quotes[quoteIndex];
