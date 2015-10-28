@@ -60,7 +60,8 @@ function addQuote(){
 		{"speaker":"T.E. Lawrence",				"quote":"The trick, William Potter, is not minding that it hurts."},
 		{"speaker":"Sherif Ali",				"quote":"It seems to me that you are free to choose your own name, then."},
 		{"speaker":"Tyra Banks",				"quote":"We were rooting for you! We were all rooting for you!"},
-		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."}
+		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."},
+		{"speaker":"Rick Sanchez",				"quote":"Don't be a sheep. Think for yourself."}
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
 	currentQuote = quotes[quoteIndex];
