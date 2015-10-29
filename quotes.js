@@ -61,7 +61,9 @@ function addQuote(){
 		{"speaker":"Sherif Ali",				"quote":"It seems to me that you are free to choose your own name, then."},
 		{"speaker":"Tyra Banks",				"quote":"We were rooting for you! We were all rooting for you!"},
 		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."},
-		{"speaker":"Rick Sanchez",				"quote":"Don't be a sheep. Think for yourself."}
+		{"speaker":"Rick Sanchez",				"quote":"Wubba Lubba Dub Dub!"},
+		{"speaker":"Ralph Wiggum",				"quote":"My cat's breath smells like cat food."}
+
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
 	currentQuote = quotes[quoteIndex];
