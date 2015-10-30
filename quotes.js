@@ -67,7 +67,7 @@ function addQuote(){
 
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
-	currentQuote = quotes[quoteIndex];
+	currentQuote = quotes[quotes.length - 1];
 	quoteLine[0].innerHTML = "\"" + currentQuote.quote + "\"";
 	speakerLine.innerHTML = "- " + currentQuote.speaker;
 	quoteLine[0].style.opacity = "1";
@@ -81,11 +81,18 @@ function addQuote(){
 var tweetButton = document.getElementById("tweet-button");
 tweetButton.onclick = function(){tweetQuote()};
 
+//140-5-3-2-16
+//1-3-1-1-1-1-1-7-1-7
+// "asodifaospjdfaosdjf" - A Name #quotes #soReal
 function tweetQuote(){
 	// Fix to include speaker even if tweet is too long, may need to make separate function for creating tweet text
-	var tweetText = ('"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker);
-	if (tweetText.length > 120){
-		tweetText = tweetText.substring(0, 120) + '..."';
+	var speakerLength = currentQuote.speaker.length;
+	var quoteLength = currentQuote.quote.length + 21;
+	if ( (quoteLength + speakerLength) > 120 ){
+		var tweetText = currentQuote.quote.substring(0, (116 - speakerLength));
 	}
+	console.log(speakerLength);
+	console.log(quoteLength);
+	tweetText = '"' + tweetText + '..."' + " - " + currentQuote.speaker;
 	window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 }
