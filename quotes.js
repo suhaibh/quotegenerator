@@ -62,7 +62,8 @@ function addQuote(){
 		{"speaker":"Tyra Banks",				"quote":"We were rooting for you! We were all rooting for you!"},
 		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."},
 		{"speaker":"Rick Sanchez",				"quote":"Wubba Lubba Dub Dub!"},
-		{"speaker":"Ralph Wiggum",				"quote":"My cat's breath smells like cat food."}
+		{"speaker":"Ralph Wiggum",				"quote":"My cat's breath smells like cat food."},
+		{"speaker":"Nathaniel Hawthorne",		"quote":"No man, for any considerable period, can wear one face to himself, and another to the multitude, without finally getting bewildered as to which may be the true."}
 
 	];
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
@@ -81,6 +82,10 @@ var tweetButton = document.getElementById("tweet-button");
 tweetButton.onclick = function(){tweetQuote()};
 
 function tweetQuote(){
-	var tweetText = '"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker;
+	// Fix to include speaker even if tweet is too long, may need to make separate function for creating tweet text
+	var tweetText = ('"'+ currentQuote.quote + '"' + " - " + currentQuote.speaker);
+	if (tweetText.length > 120){
+		tweetText = tweetText.substring(0, 120) + '..."';
+	}
 	window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 }
