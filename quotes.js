@@ -63,11 +63,13 @@ function addQuote(){
 		{"speaker":"Ludwig Mies van der Rohe",	"quote":"It is better to be good than to be original."},
 		{"speaker":"Rick Sanchez",				"quote":"Wubba Lubba Dub Dub!"},
 		{"speaker":"Ralph Wiggum",				"quote":"My cat's breath smells like cat food."},
-		{"speaker":"Nathaniel Hawthorne",		"quote":"No man, for any considerable period, can wear one face to himself, and another to the multitude, without finally getting bewildered as to which may be the true."}
-
+		{"speaker":"Nathaniel Hawthorne",		"quote":"No man, for any considerable period, can wear one face to himself, and another to the multitude, without finally getting bewildered as to which may be the true."},
+		{"speaker":"George Costanza",			"quote":"I would drape myself in velvet if it were socially acceptable."},
+		{"speaker":"Rorschach",					"quote":"No. Not even in the face of Armageddon. Never compromise."}
 	];
+
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
-	currentQuote = quotes[quotes.length - 1];
+	currentQuote = quotes[ quoteIndex ];
 	quoteLine[0].innerHTML = "\"" + currentQuote.quote + "\"";
 	speakerLine.innerHTML = "- " + currentQuote.speaker;
 	quoteLine[0].style.opacity = "1";
@@ -88,11 +90,14 @@ function tweetQuote(){
 	// Fix to include speaker even if tweet is too long, may need to make separate function for creating tweet text
 	var speakerLength = currentQuote.speaker.length;
 	var quoteLength = currentQuote.quote.length + 21;
-	if ( (quoteLength + speakerLength) > 120 ){
-		var tweetText = currentQuote.quote.substring(0, (116 - speakerLength));
+	if ( (quoteLength + speakerLength) > 140 ){
+		var shortenedText = currentQuote.quote.substring(0, (116 - speakerLength));
+		var tweetText = '"' + shortenedText + "..." + '"' + " - " + currentQuote.speaker;
+	}
+	else {
+		var tweetText = '"' + currentQuote.quote + '"' + " - " + currentQuote.speaker;
 	}
 	console.log(speakerLength);
 	console.log(quoteLength);
-	tweetText = '"' + tweetText + '..."' + " - " + currentQuote.speaker;
 	window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 }
