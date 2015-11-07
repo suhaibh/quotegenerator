@@ -66,7 +66,9 @@ function addQuote(){
 		{"speaker":"Nathaniel Hawthorne",		"quote":"No man, for any considerable period, can wear one face to himself, and another to the multitude, without finally getting bewildered as to which may be the true."},
 		{"speaker":"George Costanza",			"quote":"I would drape myself in velvet if it were socially acceptable."},
 		{"speaker":"Rorschach",					"quote":"No. Not even in the face of Armageddon. Never compromise."},
-		{"speaker":"Paul McCartney",			"quote":"And in the end, the love you take is equal to the love you make."}
+		{"speaker":"Paul McCartney",			"quote":"And in the end, the love you take is equal to the love you make."},
+		{"speaker":"Gen. George S. Patton",		"quote":"Good tactics can save even the worst strategy. Bad tactics will destroy even the best strategy."},
+		{"speaker":"William James",				"quote":"There is no more miserable human being than one in whom nothing is habitual but indecision."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
