@@ -68,7 +68,8 @@ function addQuote(){
 		{"speaker":"Rorschach",					"quote":"No. Not even in the face of Armageddon. Never compromise."},
 		{"speaker":"Paul McCartney",			"quote":"And in the end, the love you take is equal to the love you make."},
 		{"speaker":"Gen. George S. Patton",		"quote":"Good tactics can save even the worst strategy. Bad tactics will destroy even the best strategy."},
-		{"speaker":"William James",				"quote":"There is no more miserable human being than one in whom nothing is habitual but indecision."}
+		{"speaker":"William James",				"quote":"There is no more miserable human being than one in whom nothing is habitual but indecision."},
+		{"speaker":"Homer Simpson",				"quote":"I am so smart! S-M-R-T!"}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
