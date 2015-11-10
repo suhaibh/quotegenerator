@@ -69,7 +69,8 @@ function addQuote(){
 		{"speaker":"Paul McCartney",			"quote":"And in the end, the love you take is equal to the love you make."},
 		{"speaker":"Gen. George S. Patton",		"quote":"Good tactics can save even the worst strategy. Bad tactics will destroy even the best strategy."},
 		{"speaker":"William James",				"quote":"There is no more miserable human being than one in whom nothing is habitual but indecision."},
-		{"speaker":"Homer Simpson",				"quote":"I am so smart! S-M-R-T!"}
+		{"speaker":"Homer Simpson",				"quote":"I am so smart! S-M-R-T!"},
+		{"speaker":"Conan O'Brien",				"quote":"Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
