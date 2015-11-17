@@ -71,7 +71,8 @@ function addQuote(){
 		{"speaker":"William James",				"quote":"There is no more miserable human being than one in whom nothing is habitual but indecision."},
 		{"speaker":"Homer Simpson",				"quote":"I am so smart! S-M-R-T!"},
 		{"speaker":"Conan O'Brien",				"quote":"Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen."},
-		{"speaker":"George Washington",			"quote":"Liberty, when it begins to take root, is a plant of rapid growth."}
+		{"speaker":"George Washington",			"quote":"Liberty, when it begins to take root, is a plant of rapid growth."},
+		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
@@ -107,3 +108,14 @@ function tweetQuote(){
 	console.log(quoteLength);
 	window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 }
+
+
+$(document).ready(function(){
+	$('body').click(function(){
+		$.getJSON('https://congress.api.sunlightfoundation.com/legislators/locate?zip=11040&apikey=fc3288f6fc76432cab18b7a00cb4f3a9', function(data){
+			alert(data.results[0]["first_name"])
+		})
+	})
+})
+
+
