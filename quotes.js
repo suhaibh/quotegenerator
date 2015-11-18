@@ -72,7 +72,8 @@ function addQuote(){
 		{"speaker":"Homer Simpson",				"quote":"I am so smart! S-M-R-T!"},
 		{"speaker":"Conan O'Brien",				"quote":"Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen."},
 		{"speaker":"George Washington",			"quote":"Liberty, when it begins to take root, is a plant of rapid growth."},
-		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."}
+		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."},
+		{"speaker":"Brain Warren",				"quote":"When I say home, I mean the planet I'm from."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
