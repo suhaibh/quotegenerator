@@ -73,7 +73,8 @@ function addQuote(){
 		{"speaker":"Conan O'Brien",				"quote":"Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen."},
 		{"speaker":"George Washington",			"quote":"Liberty, when it begins to take root, is a plant of rapid growth."},
 		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."},
-		{"speaker":"Brain Warren",				"quote":"When I say home, I mean the planet I'm from."}
+		{"speaker":"Brain Warren",				"quote":"When I say home, I mean the planet I'm from."},
+		{"speaker":"Franklin Delano Roosevelt",	"quote":"Happiness lies in the joy of achievement and the thrill of creative effort."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
