@@ -75,7 +75,8 @@ function addQuote(){
 		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."},
 		{"speaker":"Brain Warren",				"quote":"When I say home, I mean the planet I'm from."},
 		{"speaker":"Franklin Delano Roosevelt",	"quote":"Happiness lies in the joy of achievement and the thrill of creative effort."},
-		{"speaker":"Fiorello H. LaGuardia",		"quote":"Only a well-fed, well-housed, well-schooled people can enjoy the blessings of liberty."}
+		{"speaker":"Fiorello H. LaGuardia",		"quote":"Only a well-fed, well-housed, well-schooled people can enjoy the blessings of liberty."},
+		{"speaker":"Mel Brooks",				"quote":"As long as the world is turning and spinning, we're gonna be dizzy and we're gonna make mistakes."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
