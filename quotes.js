@@ -77,7 +77,8 @@ function addQuote(){
 		{"speaker":"Franklin Delano Roosevelt",	"quote":"Happiness lies in the joy of achievement and the thrill of creative effort."},
 		{"speaker":"Fiorello H. LaGuardia",		"quote":"Only a well-fed, well-housed, well-schooled people can enjoy the blessings of liberty."},
 		{"speaker":"Mel Brooks",				"quote":"As long as the world is turning and spinning, we're gonna be dizzy and we're gonna make mistakes."},
-		{"speaker":"Louis CK",					"quote":"I'm bored' is a useless thing to say. You live in a great, big, vast world that you've seen none percent of."}
+		{"speaker":"Louis CK",					"quote":"I'm bored' is a useless thing to say. You live in a great, big, vast world that you've seen none percent of."},
+		{"speaker":"Luke Skywalker",			"quote":"I won't fail you. I'm not afraid."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
