@@ -79,7 +79,8 @@ function addQuote(){
 		{"speaker":"Mel Brooks",				"quote":"As long as the world is turning and spinning, we're gonna be dizzy and we're gonna make mistakes."},
 		{"speaker":"Louis CK",					"quote":"I'm bored' is a useless thing to say. You live in a great, big, vast world that you've seen none percent of."},
 		{"speaker":"Luke Skywalker",			"quote":"I won't fail you. I'm not afraid."},
-		{"speaker":"William Tecumseh Sherman",	"quote":"Courage - a perfect sensibility of the measure of danger, and a mental willingness to endure it."}
+		{"speaker":"William Tecumseh Sherman",	"quote":"Courage - a perfect sensibility of the measure of danger, and a mental willingness to endure it."},
+		{"speaker":"Martin Luther King Jr.",	"quote":"The arc of the Moral Universe is long but It bends towards Justice."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
