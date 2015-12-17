@@ -80,7 +80,8 @@ function addQuote(){
 		{"speaker":"Louis CK",					"quote":"I'm bored' is a useless thing to say. You live in a great, big, vast world that you've seen none percent of."},
 		{"speaker":"Luke Skywalker",			"quote":"I won't fail you. I'm not afraid."},
 		{"speaker":"William Tecumseh Sherman",	"quote":"Courage - a perfect sensibility of the measure of danger, and a mental willingness to endure it."},
-		{"speaker":"Martin Luther King Jr.",	"quote":"The arc of the Moral Universe is long but It bends towards Justice."}
+		{"speaker":"Martin Luther King Jr.",	"quote":"The arc of the Moral Universe is long but It bends towards Justice."},
+		{"speaker":"Father Zosima",				"quote":"I am sorry that I cannot say anything more comforting, for active love is a harsh and fearful thing compared with love in dreams."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
