@@ -81,7 +81,8 @@ function addQuote(){
 		{"speaker":"Luke Skywalker",			"quote":"I won't fail you. I'm not afraid."},
 		{"speaker":"William Tecumseh Sherman",	"quote":"Courage - a perfect sensibility of the measure of danger, and a mental willingness to endure it."},
 		{"speaker":"Martin Luther King Jr.",	"quote":"The arc of the Moral Universe is long but It bends towards Justice."},
-		{"speaker":"Father Zosima",				"quote":"I am sorry that I cannot say anything more comforting, for active love is a harsh and fearful thing compared with love in dreams."}
+		{"speaker":"Father Zosima",				"quote":"I am sorry that I cannot say anything more comforting, for active love is a harsh and fearful thing compared with love in dreams."},
+		{"speaker":"Phil Jackson",				"quote":"Love is the force that ignites the spirit and binds teams together."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
