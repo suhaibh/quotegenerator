@@ -83,7 +83,8 @@ function addQuote(){
 		{"speaker":"Martin Luther King Jr.",	"quote":"The arc of the Moral Universe is long but It bends towards Justice."},
 		{"speaker":"Father Zosima",				"quote":"I am sorry that I cannot say anything more comforting, for active love is a harsh and fearful thing compared with love in dreams."},
 		{"speaker":"Phil Jackson",				"quote":"Love is the force that ignites the spirit and binds teams together."},
-		{"speaker":"Franklin Delano Roosevelt",	"quote":"We have nothing to fear but fear itself."}
+		{"speaker":"Franklin Delano Roosevelt",	"quote":"We have nothing to fear but fear itself."},
+		{"speaker":"Larry David",				"quote":"I was planning on my future as a homeless person. I had a really good spot picked out."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
