@@ -86,7 +86,8 @@ function addQuote(){
 		{"speaker":"Franklin Delano Roosevelt",	"quote":"We have nothing to fear but fear itself."},
 		{"speaker":"Larry David",				"quote":"I was planning on my future as a homeless person. I had a really good spot picked out."},
 		{"speaker":"Napoleon Dynamite",			"quote":"Tina, come get some ham."},
-		{"speaker":"Morty",						"quote":"Nobody exists on purpose. Nobody belongs anywhere. Everybody’s gonna die. Come watch TV?"}
+		{"speaker":"Morty",						"quote":"Nobody exists on purpose. Nobody belongs anywhere. Everybody’s gonna die. Come watch TV?"},
+		{"speaker":"Greg Popovich",				"quote":"It's not about any one person. You've got to get over yourself and realize that it takes a group to get this thing done."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
