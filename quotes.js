@@ -85,7 +85,8 @@ function addQuote(){
 		{"speaker":"Phil Jackson",				"quote":"Love is the force that ignites the spirit and binds teams together."},
 		{"speaker":"Franklin Delano Roosevelt",	"quote":"We have nothing to fear but fear itself."},
 		{"speaker":"Larry David",				"quote":"I was planning on my future as a homeless person. I had a really good spot picked out."},
-		{"speaker":"Napoleon Dynamite",			"quote":"Tina, come get some ham."}
+		{"speaker":"Napoleon Dynamite",			"quote":"Tina, come get some ham."},
+		{"speaker":"Morty",						"quote":"Nobody exists on purpose. Nobody belongs anywhere. Everybody’s gonna die. Come watch TV?"}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
