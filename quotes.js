@@ -1,7 +1,7 @@
 // Night Mode
 var quoteBox = document.getElementById("quote-box");
 var nightModeButton = document.getElementById("night-button");
-nightModeButton.onclick = function(){nightMode()};
+nightModeButton.onclick = nightMode;
 
 function nightMode(){
 	if (document.body.className == false){
