@@ -87,7 +87,8 @@ function addQuote(){
 		{"speaker":"Larry David",				"quote":"I was planning on my future as a homeless person. I had a really good spot picked out."},
 		{"speaker":"Napoleon Dynamite",			"quote":"Tina, come get some ham."},
 		{"speaker":"Morty",						"quote":"Nobody exists on purpose. Nobody belongs anywhere. Everybody’s gonna die. Come watch TV?"},
-		{"speaker":"Greg Popovich",				"quote":"It's not about any one person. You've got to get over yourself and realize that it takes a group to get this thing done."}
+		{"speaker":"Greg Popovich",				"quote":"It's not about any one person. You've got to get over yourself and realize that it takes a group to get this thing done."},
+		{"speaker":"Charles Bukowski",			"quote":"An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
