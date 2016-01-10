@@ -88,7 +88,8 @@ function addQuote(){
 		{"speaker":"Napoleon Dynamite",			"quote":"Tina, come get some ham."},
 		{"speaker":"Morty",						"quote":"Nobody exists on purpose. Nobody belongs anywhere. Everybody’s gonna die. Come watch TV?"},
 		{"speaker":"Greg Popovich",				"quote":"It's not about any one person. You've got to get over yourself and realize that it takes a group to get this thing done."},
-		{"speaker":"Charles Bukowski",			"quote":"An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way."}
+		{"speaker":"Charles Bukowski",			"quote":"An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way."},
+		{"speaker":"Bill Gates",				"quote":"Success is a lousy teacher. It seduces smart people into thinking they can't lose."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
