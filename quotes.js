@@ -90,7 +90,8 @@ function addQuote(){
 		{"speaker":"Greg Popovich",				"quote":"It's not about any one person. You've got to get over yourself and realize that it takes a group to get this thing done."},
 		{"speaker":"Charles Bukowski",			"quote":"An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way."},
 		{"speaker":"Bill Gates",				"quote":"Success is a lousy teacher. It seduces smart people into thinking they can't lose."},
-		{"speaker":"Walt Disney",				"quote":"We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths."}
+		{"speaker":"Walt Disney",				"quote":"We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths."},
+		{"speaker":"Michael Jordan",			"quote":"I've always believed that if you put in the work, the results will come."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
