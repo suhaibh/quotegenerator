@@ -93,7 +93,8 @@ function addQuote(){
 		{"speaker":"Walt Disney",				"quote":"We keep moving forward, opening up new doors and doing new things, because we're curious...and curiosity keeps leading us down new paths."},
 		{"speaker":"Michael Jordan",			"quote":"I've always believed that if you put in the work, the results will come."},
 		{"speaker":"Hayao Miyazaki",			"quote":"Always believe in yourself. Do this and no matter where you are, you will have nothing to fear."},
-		{"speaker":"Derek Zoolander",			"quote":"But why male models?"}
+		{"speaker":"Derek Zoolander",			"quote":"But why male models?"},
+		{"speaker":"Jeff Van Gundy",			"quote":"Players with high character get better. Players with a serious approach get better. The fools never get better"}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
