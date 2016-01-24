@@ -94,7 +94,8 @@ function addQuote(){
 		{"speaker":"Michael Jordan",			"quote":"I've always believed that if you put in the work, the results will come."},
 		{"speaker":"Hayao Miyazaki",			"quote":"Always believe in yourself. Do this and no matter where you are, you will have nothing to fear."},
 		{"speaker":"Derek Zoolander",			"quote":"But why male models?"},
-		{"speaker":"Jeff Van Gundy",			"quote":"Players with high character get better. Players with a serious approach get better. The fools never get better"}
+		{"speaker":"Jeff Van Gundy",			"quote":"Players with high character get better. Players with a serious approach get better. The fools never get better"},
+		{"speaker":"John F. Kennedy",			"quote":"Victory has 100 fathers and defeat is an orphan."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
