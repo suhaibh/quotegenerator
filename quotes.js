@@ -95,7 +95,8 @@ function addQuote(){
 		{"speaker":"Hayao Miyazaki",			"quote":"Always believe in yourself. Do this and no matter where you are, you will have nothing to fear."},
 		{"speaker":"Derek Zoolander",			"quote":"But why male models?"},
 		{"speaker":"Jeff Van Gundy",			"quote":"Players with high character get better. Players with a serious approach get better. The fools never get better"},
-		{"speaker":"John F. Kennedy",			"quote":"Victory has 100 fathers and defeat is an orphan."}
+		{"speaker":"John F. Kennedy",			"quote":"Victory has 100 fathers and defeat is an orphan."},
+		{"speaker":"Alexis de Tocqueville",		"quote":"The genius of democracies is seen not only in the great number of new words introduced but even more in the new ideas they express."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
