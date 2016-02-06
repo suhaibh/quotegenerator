@@ -97,7 +97,8 @@ function addQuote(){
 		{"speaker":"Jeff Van Gundy",			"quote":"Players with high character get better. Players with a serious approach get better. The fools never get better"},
 		{"speaker":"John F. Kennedy",			"quote":"Victory has 100 fathers and defeat is an orphan."},
 		{"speaker":"Alexis de Tocqueville",		"quote":"The genius of democracies is seen not only in the great number of new words introduced but even more in the new ideas they express."},
-		{"speaker":"Muhammad Ali",				"quote":"I am the greatest, I said that even before I knew I was."}
+		{"speaker":"Muhammad Ali",				"quote":"I am the greatest, I said that even before I knew I was."},
+		{"speaker":"Barack Obama",				"quote":"The future rewards those who press on. I don't have time to feel sorry for myself. I don't have time to complain. I'm going to press on."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
