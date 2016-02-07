@@ -73,7 +73,7 @@ function addQuote(){
 		{"speaker":"Conan O'Brien",				"quote":"Nobody in life gets exactly what they thought they were going to get. But if you work really hard and you're kind, amazing things will happen."},
 		{"speaker":"George Washington",			"quote":"Liberty, when it begins to take root, is a plant of rapid growth."},
 		{"speaker":"Frank Lloyd Wright",		"quote":"Form follows function - that has been misunderstood. Form and function should be one, joined in a spiritual union."},
-		{"speaker":"Brain Warren",				"quote":"When I say home, I mean the planet I'm from."},
+		{"speaker":"Brian Warren",				"quote":"When I say home, I mean the planet I'm from."},
 		{"speaker":"Franklin Delano Roosevelt",	"quote":"Happiness lies in the joy of achievement and the thrill of creative effort."},
 		{"speaker":"Fiorello H. LaGuardia",		"quote":"Only a well-fed, well-housed, well-schooled people can enjoy the blessings of liberty."},
 		{"speaker":"Mel Brooks",				"quote":"As long as the world is turning and spinning, we're gonna be dizzy and we're gonna make mistakes."},
@@ -98,7 +98,8 @@ function addQuote(){
 		{"speaker":"John F. Kennedy",			"quote":"Victory has 100 fathers and defeat is an orphan."},
 		{"speaker":"Alexis de Tocqueville",		"quote":"The genius of democracies is seen not only in the great number of new words introduced but even more in the new ideas they express."},
 		{"speaker":"Muhammad Ali",				"quote":"I am the greatest, I said that even before I knew I was."},
-		{"speaker":"Barack Obama",				"quote":"The future rewards those who press on. I don't have time to feel sorry for myself. I don't have time to complain. I'm going to press on."}
+		{"speaker":"Barack Obama",				"quote":"The future rewards those who press on. I don't have time to feel sorry for myself. I don't have time to complain. I'm going to press on."},
+		{"speaker":"Warren Buffet",				"quote":"You only have to do a very few things right in your life so long as you don't do too many things wrong."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
