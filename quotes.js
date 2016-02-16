@@ -140,8 +140,8 @@ function tweetQuote(){
 
 $(document).ready(function(){
 	$('body').click(function(){
-		$.getJSON('https://congress.api.sunlightfoundation.com/legislators/locate?zip=11040&apikey=fc3288f6fc76432cab18b7a00cb4f3a9', function(data){
-			alert(data.results[0]["first_name"])
+		$.getJSON('http://openstates.org/api/v1/legislators/geo/?lat=35.79&long=-78.78&apikey=fc3288f6fc76432cab18b7a00cb4f3a9', function(data){
+			console.log(data)
 		})
 	})
 })
