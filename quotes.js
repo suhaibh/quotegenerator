@@ -101,7 +101,8 @@ function addQuote(){
 		{"speaker":"Barack Obama",				"quote":"The future rewards those who press on. I don't have time to feel sorry for myself. I don't have time to complain. I'm going to press on."},
 		{"speaker":"Warren Buffet",				"quote":"You only have to do a very few things right in your life so long as you don't do too many things wrong."},
 		{"speaker":"Winston Churchill",			"quote":"If you're going through hell, keep going."},
-		{"speaker":"Henry Ford",				"quote":"If I had asked people what they wanted, they would have said faster horses."}
+		{"speaker":"Henry Ford",				"quote":"If I had asked people what they wanted, they would have said faster horses."},
+		{"speaker":"Robin Williams",			"quote":"Never pick a fight with an ugly person, they've got nothing to lose."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
