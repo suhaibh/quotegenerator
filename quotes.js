@@ -102,7 +102,8 @@ function addQuote(){
 		{"speaker":"Warren Buffet",				"quote":"You only have to do a very few things right in your life so long as you don't do too many things wrong."},
 		{"speaker":"Winston Churchill",			"quote":"If you're going through hell, keep going."},
 		{"speaker":"Henry Ford",				"quote":"If I had asked people what they wanted, they would have said faster horses."},
-		{"speaker":"Robin Williams",			"quote":"Never pick a fight with an ugly person, they've got nothing to lose."}
+		{"speaker":"Robin Williams",			"quote":"Never pick a fight with an ugly person, they've got nothing to lose."},
+		{"speaker":"Alexander Hamilton",		"quote":"Why has government been instituted at all? Because the passions of men will not conform to the dictates of reason and justice, without constraint."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
