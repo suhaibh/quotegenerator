@@ -104,7 +104,8 @@ function addQuote(){
 		{"speaker":"Henry Ford",				"quote":"If I had asked people what they wanted, they would have said faster horses."},
 		{"speaker":"Robin Williams",			"quote":"Never pick a fight with an ugly person, they've got nothing to lose."},
 		{"speaker":"Alexander Hamilton",		"quote":"Why has government been instituted at all? Because the passions of men will not conform to the dictates of reason and justice, without constraint."},
-		{"speaker":"Edgar Allan Poe",			"quote":"Believe nothing you hear, and only one half that you see."}
+		{"speaker":"Edgar Allan Poe",			"quote":"Believe nothing you hear, and only one half that you see."},
+		{"speaker":"Jon Snow",					"quote":"Winter is almost upon us. Kill the boy and let the man be born."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
