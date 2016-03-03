@@ -106,7 +106,8 @@ function addQuote(){
 		{"speaker":"Alexander Hamilton",		"quote":"Why has government been instituted at all? Because the passions of men will not conform to the dictates of reason and justice, without constraint."},
 		{"speaker":"Edgar Allan Poe",			"quote":"Believe nothing you hear, and only one half that you see."},
 		{"speaker":"Jon Snow",					"quote":"Winter is almost upon us. Kill the boy and let the man be born."},
-		{"speaker":"George W. Bush",			"quote":"You teach a child to read, and he or her will be able to pass a literacy test."}
+		{"speaker":"George W. Bush",			"quote":"You teach a child to read, and he or her will be able to pass a literacy test."},
+		{"speaker":"Mark Twain",				"quote":"Always do right. This will gratify some people and astonish the rest."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
