@@ -108,7 +108,8 @@ function addQuote(){
 		{"speaker":"Jon Snow",					"quote":"Winter is almost upon us. Kill the boy and let the man be born."},
 		{"speaker":"George W. Bush",			"quote":"You teach a child to read, and he or her will be able to pass a literacy test."},
 		{"speaker":"Mark Twain",				"quote":"Always do right. This will gratify some people and astonish the rest."},
-		{"speaker":"Julius Caesar",				"quote":"It is better to create than to learn! Creating is the essence of life."}
+		{"speaker":"Julius Caesar",				"quote":"It is better to create than to learn! Creating is the essence of life."},
+		{"speaker":"George R.R. Martin",		"quote":"Laughter is poison to fear."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
