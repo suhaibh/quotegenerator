@@ -110,7 +110,8 @@ function addQuote(){
 		{"speaker":"Mark Twain",				"quote":"Always do right. This will gratify some people and astonish the rest."},
 		{"speaker":"Julius Caesar",				"quote":"It is better to create than to learn! Creating is the essence of life."},
 		{"speaker":"George R.R. Martin",		"quote":"Laughter is poison to fear."},
-		{"speaker":"Gen. George S. Patton",		"quote":"Success is how high you bounce when you hit bottom."}
+		{"speaker":"Gen. George S. Patton",		"quote":"Success is how high you bounce when you hit bottom."},
+		{"speaker":"Thomas Jefferson",			"quote":"Do you want to know who you are? Don't ask. Act! Action will delineate and define you."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
