@@ -111,7 +111,8 @@ function addQuote(){
 		{"speaker":"Julius Caesar",				"quote":"It is better to create than to learn! Creating is the essence of life."},
 		{"speaker":"George R.R. Martin",		"quote":"Laughter is poison to fear."},
 		{"speaker":"Gen. George S. Patton",		"quote":"Success is how high you bounce when you hit bottom."},
-		{"speaker":"Thomas Jefferson",			"quote":"Do you want to know who you are? Don't ask. Act! Action will delineate and define you."}
+		{"speaker":"Thomas Jefferson",			"quote":"Do you want to know who you are? Don't ask. Act! Action will delineate and define you."},
+		{"speaker":"Benjamin Franklin",			"quote":"Genius without education is like silver in the mine."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
