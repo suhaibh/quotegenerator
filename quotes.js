@@ -112,7 +112,8 @@ function addQuote(){
 		{"speaker":"George R.R. Martin",		"quote":"Laughter is poison to fear."},
 		{"speaker":"Gen. George S. Patton",		"quote":"Success is how high you bounce when you hit bottom."},
 		{"speaker":"Thomas Jefferson",			"quote":"Do you want to know who you are? Don't ask. Act! Action will delineate and define you."},
-		{"speaker":"Benjamin Franklin",			"quote":"Genius without education is like silver in the mine."}
+		{"speaker":"Benjamin Franklin",			"quote":"Genius without education is like silver in the mine."},
+		{"speaker":"Bill Gates",				"quote":"Success is a lousy teacher. It seduces smart people into thinking they can't lose."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
