@@ -114,7 +114,8 @@ function addQuote(){
 		{"speaker":"Thomas Jefferson",			"quote":"Do you want to know who you are? Don't ask. Act! Action will delineate and define you."},
 		{"speaker":"Benjamin Franklin",			"quote":"Genius without education is like silver in the mine."},
 		{"speaker":"Bill Gates",				"quote":"Success is a lousy teacher. It seduces smart people into thinking they can't lose."},
-		{"speaker":"Tim Duncan",				"quote":"Good, better, best. Never let it rest. Until your good is better and your better is best."}
+		{"speaker":"Tim Duncan",				"quote":"Good, better, best. Never let it rest. Until your good is better and your better is best."},
+		{"speaker":"Bill Clinton",				"quote":"In the new economy, information, education, and motivation are everyting."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
