@@ -116,7 +116,8 @@ function addQuote(){
 		{"speaker":"Bill Gates",				"quote":"Success is a lousy teacher. It seduces smart people into thinking they can't lose."},
 		{"speaker":"Tim Duncan",				"quote":"Good, better, best. Never let it rest. Until your good is better and your better is best."},
 		{"speaker":"Bill Clinton",				"quote":"In the new economy, information, education, and motivation are everyting."},
-		{"speaker":"John Adams",				"quote":"I must study politics and war that my sons may have liberty to study mathematics and philosophy."}
+		{"speaker":"John Adams",				"quote":"I must study politics and war that my sons may have liberty to study mathematics and philosophy."},
+		{"speaker":"Alexander the Great",		"quote":"Remember upon the conduct of each depends the fate of all."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
