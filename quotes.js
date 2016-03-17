@@ -120,7 +120,8 @@ function addQuote(){
 		{"speaker":"Alexander the Great",		"quote":"Remember upon the conduct of each depends the fate of all."},
 		{"speaker":"Salvador Dali",				"quote":"Intelligence without ambition is a bird without wings."},
 		{"speaker":"Kanye West",				"quote":"I feel like I'm too busy writing history to read it."},
-		{"speaker":"Chance the Rapper",			"quote":"This is my part nobody else speak."}
+		{"speaker":"Chance the Rapper",			"quote":"This is my part nobody else speak."},
+		{"speaker":"Amiri Baraka",				"quote":"Thought is more important than art. To revere art and have no understanding of the process that forces it into existence, is finally not even to understand what art is."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
