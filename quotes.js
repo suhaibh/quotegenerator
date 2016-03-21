@@ -123,7 +123,8 @@ function addQuote(){
 		{"speaker":"Chance the Rapper",			"quote":"This is my part nobody else speak."},
 		{"speaker":"Amiri Baraka",				"quote":"Thought is more important than art. To revere art and have no understanding of the process that forces it into existence, is finally not even to understand what art is."},
 		{"speaker":"Mike Tyson",				"quote":"Everyone has a plan 'till they get punched in the mouth."},
-		{"speaker":"James Madison",				"quote":"The essence of Government is power; and power, lodged as it must be in human hands, will ever be liable to abuse."}
+		{"speaker":"James Madison",				"quote":"The essence of Government is power; and power, lodged as it must be in human hands, will ever be liable to abuse."},
+		{"speaker":"George Orwell",				"quote":"Who controls the past controls the future. Who controls the present controls the past."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
