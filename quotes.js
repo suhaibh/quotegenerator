@@ -126,7 +126,8 @@ function addQuote(){
 		{"speaker":"James Madison",				"quote":"The essence of Government is power; and power, lodged as it must be in human hands, will ever be liable to abuse."},
 		{"speaker":"George Orwell",				"quote":"Who controls the past controls the future. Who controls the present controls the past."},
 		{"speaker":"Robert Frost",				"quote":"In three words I can sum up everything I've learned about life: it goes on."},
-		{"speaker":"René Descartes",			"quote":"If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things."}
+		{"speaker":"René Descartes",			"quote":"If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things."},
+		{"speaker":"Cornelius Vanderbilt",		"quote":"I don't care half so much about making money as I do about making my point, and coming out ahead."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
@@ -162,14 +163,5 @@ function tweetQuote(){
 	console.log(quoteLength);
 	window.open("https://twitter.com/intent/tweet?text="+tweetText+"&hashtags=quotes,SoReal", "tweetquote", 'width=700,height=250');
 }
-
-
-$(document).ready(function(){
-	$('body').click(function(){
-		$.getJSON('http://openstates.org/api/v1/legislators/geo/?lat=35.79&long=-78.78&apikey=fc3288f6fc76432cab18b7a00cb4f3a9', function(data){
-			console.log(data)
-		})
-	})
-})
 
 
