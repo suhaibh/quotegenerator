@@ -127,7 +127,8 @@ function addQuote(){
 		{"speaker":"George Orwell",				"quote":"Who controls the past controls the future. Who controls the present controls the past."},
 		{"speaker":"Robert Frost",				"quote":"In three words I can sum up everything I've learned about life: it goes on."},
 		{"speaker":"René Descartes",			"quote":"If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things."},
-		{"speaker":"Cornelius Vanderbilt",		"quote":"I don't care half so much about making money as I do about making my point, and coming out ahead."}
+		{"speaker":"Cornelius Vanderbilt",		"quote":"I don't care half so much about making money as I do about making my point, and coming out ahead."},
+		{"speaker":"Magic Johnson",				"quote":"All kids need is a little help, a little hope and somebody who believes in them."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
