@@ -129,7 +129,8 @@ function addQuote(){
 		{"speaker":"René Descartes",			"quote":"If you would be a real seeker after truth, it is necessary that at least once in your life you doubt, as far as possible, all things."},
 		{"speaker":"Cornelius Vanderbilt",		"quote":"I don't care half so much about making money as I do about making my point, and coming out ahead."},
 		{"speaker":"Magic Johnson",				"quote":"All kids need is a little help, a little hope and somebody who believes in them."},
-		{"speaker":"Pablo Picasso",				"quote":"Everything you can imagine is real."}
+		{"speaker":"Pablo Picasso",				"quote":"Everything you can imagine is real."},
+		{"speaker":"Jay Z",						"quote":"I'm far from being god, but I work god damn hard."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
