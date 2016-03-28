@@ -131,7 +131,8 @@ function addQuote(){
 		{"speaker":"Magic Johnson",				"quote":"All kids need is a little help, a little hope and somebody who believes in them."},
 		{"speaker":"Pablo Picasso",				"quote":"Everything you can imagine is real."},
 		{"speaker":"Jay Z",						"quote":"I'm far from being god, but I work god damn hard."},
-		{"speaker":"Woodrow Wilson",			"quote":"If you want to make enemies, try to change something."}
+		{"speaker":"Woodrow Wilson",			"quote":"If you want to make enemies, try to change something."},
+		{"speaker":"Rick James",				"quote":"I'm too old to do crazy things anymore."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
