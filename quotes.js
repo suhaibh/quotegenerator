@@ -130,7 +130,8 @@ function addQuote(){
 		{"speaker":"Cornelius Vanderbilt",		"quote":"I don't care half so much about making money as I do about making my point, and coming out ahead."},
 		{"speaker":"Magic Johnson",				"quote":"All kids need is a little help, a little hope and somebody who believes in them."},
 		{"speaker":"Pablo Picasso",				"quote":"Everything you can imagine is real."},
-		{"speaker":"Jay Z",						"quote":"I'm far from being god, but I work god damn hard."}
+		{"speaker":"Jay Z",						"quote":"I'm far from being god, but I work god damn hard."},
+		{"speaker":"Woodrow Wilson",			"quote":"If you want to make enemies, try to change something."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
