@@ -134,7 +134,8 @@ function addQuote(){
 		{"speaker":"Woodrow Wilson",			"quote":"If you want to make enemies, try to change something."},
 		{"speaker":"Rick James",				"quote":"I'm too old to do crazy things anymore."},
 		{"speaker":"Garry Shandling",			"quote":"I think it's one of the main negative emotional ingredients that fuels show business, because there's so much at stake and the fear of failure looms large."},
-		{"speaker":"Rick Perry",				"quote":"Oops."}
+		{"speaker":"Rick Perry",				"quote":"Oops."},
+		{"speaker":"Frederick Douglass",		"quote":"If there is no struggle, there is no progress."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
