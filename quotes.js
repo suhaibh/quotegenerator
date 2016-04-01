@@ -135,7 +135,8 @@ function addQuote(){
 		{"speaker":"Rick James",				"quote":"I'm too old to do crazy things anymore."},
 		{"speaker":"Garry Shandling",			"quote":"I think it's one of the main negative emotional ingredients that fuels show business, because there's so much at stake and the fear of failure looms large."},
 		{"speaker":"Rick Perry",				"quote":"Oops."},
-		{"speaker":"Frederick Douglass",		"quote":"If there is no struggle, there is no progress."}
+		{"speaker":"Frederick Douglass",		"quote":"If there is no struggle, there is no progress."},
+		{"speaker":"Thurgood Marshall",			"quote":"In recognizing the humanity of our fellow beings, we pay ourselves the highest tribute."}
 	];
 
 	var quoteIndex = Math.floor(Math.random() * quotes.length);
